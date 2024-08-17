@@ -131,7 +131,7 @@ export default function Generate() {
           </Button>
         </Paper>
       </Box>
-      {Array.isArray(flashcards) && flashcards.length > 0 && (
+      {flashcards.length > 0 && (
         <Box sx={{ mt: 4 }}>
           <Typography variant="h5">Flashcards Preview</Typography>
           <Grid container spacing={3}>

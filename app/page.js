@@ -53,12 +53,12 @@ export default function Home() {
           {" "}
           The easiest way to make flashcards from your text
         </Typography>
-        <Button variant="container" color="primary" sx={{ mt: 2 }}>
+        <Button variant="contained" color="primary" sx={{ mt: 2 }}>
           Get Started
         </Button>
       </Box>
       <Box sx={{ my: 6 }}>
-        <Typography variant="h4" gutterBottom>
+        <Typography variant="h4" align="center" sx={{ mb: 5 }} gutterBottom>
           Features
         </Typography>
         <Grid container spacing={4}>
